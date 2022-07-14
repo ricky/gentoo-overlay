@@ -1,0 +1,14 @@
+#!/sbin/openrc-run
+# Copyright 1999-2019 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
+
+command="/usr/sbin/nordvpnd"
+command_user="root:${RC_SVCNAME}"
+pidfile="/run/${RC_SVCNAME}.pid"
+retry="SIGTERM/5/SIGTERM/5/SIGKILL/5"
+supervisor="supervise-daemon"
+
+depend() {
+    use logger net
+    provide dns
+}

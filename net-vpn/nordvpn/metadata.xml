@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+    <email>gentoo@ricky.dev</email>
+    <name>Ricky Rivera</name>
+  </maintainer>
+  <upstream>
+    <doc>https://support.nordvpn.com/</doc>
+  </upstream>
+  <use>
+    <flag name="nordlynx">Enable Wireguard features</flag>
+    <flag name="systemd">Install systemd service file(s)</flag>
+  </use>
+</pkgmetadata>
