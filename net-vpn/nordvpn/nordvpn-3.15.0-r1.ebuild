@@ -39,7 +39,6 @@ src_unpack() {
 
 src_prepare() {
 	default
-	rm _gpgbuilder || die
 	use !systemd && ( rm -rf usr/lib/systemd || die )
 	mv usr/share/doc/nordvpn/changelog.gz .
 	gunzip changelog.gz
