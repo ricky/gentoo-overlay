@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+    <email>gentoo@ricky.dev</email>
+    <name>Ricky Rivera</name>
+  </maintainer>
+  <description>
+    REALTEK RTL88x2B USB Linux Driver
+  </description>
+  <upstream>
+    <doc>https://github.com/RinCat/RTL88x2BU-Linux-Driver</doc>
+  </upstream>
+</pkgmetadata>
